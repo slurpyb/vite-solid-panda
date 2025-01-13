@@ -1,0 +1,30 @@
+{
+  "name": "@slurpyb/vite-solid-panda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "prepare": "panda codegen",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Jordan Sweeting <slurpyb@fastmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slurpyb/vite-solid-panda.git"
+  },
+  "devDependencies": {
+    "@pandacss/dev": "^0.51.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.0",
+    "vite-plugin-solid": "^2.11.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.9.3"
+  }
+}
